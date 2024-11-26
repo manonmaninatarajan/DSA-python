@@ -1,6 +1,6 @@
 print("Linear search algorithm")
 print()
-arr=[]
+
 def linear_search(arr,value,j):
     for i in range(j):
         if arr[i]==value:
