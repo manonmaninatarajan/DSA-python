@@ -3,7 +3,7 @@ def binary_search(arr,search):
     right=len(arr)-1
 
     while left <=right:
-        m = (left + right) // 2
+        m = int((left + right) / 2)
         mid=arr[m]
         if(mid==search):
             print("the index of the number is:",m)
